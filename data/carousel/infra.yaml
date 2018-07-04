@@ -1,0 +1,9 @@
+weight: 4
+title: "Infrastructure"
+description: >
+        <ul class="list-style-none">
+           <li>Assisting and conducting installs</li>
+           <li>Improving coverage and gateway redundancy</li>
+        </ul>
+image: "img/carousel/hanskopp.jpg"
+

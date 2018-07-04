@@ -1,0 +1,170 @@
+baseURL = "https://www.onisa.org.za/"
+languageCode = "en-us"
+title = "ONISA"
+theme = "hugo-universal-theme"
+defaultContentLanguage = "en"
+googleAnalytics = "UA-115065316-1"
+
+# Define the number of posts per page
+paginate = 10
+
+[menu]
+
+# Main menu
+
+[[menu.main]]
+    name = "Home"
+    url  = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Blog"
+    url  = "/blog/"
+    weight = 2
+
+[[menu.main]]
+    name = "FAQ"
+    identifier = "faq"
+    url  = "/faq/"
+    weight = 3
+
+[[menu.main]]
+    name = "Resources"
+    url  = "/resources/"
+    weight = 4
+
+[[menu.main]]
+    name = "Contact"
+    url  = "/contact/"
+    weight = 5
+
+# Top bar social links menu
+
+[[menu.topbar]]
+    weight = 1
+    name = "GitHub"
+    url = "https://github.com/onisa-org-za"
+    pre = "<i class='fa fa-2x fa-github'></i>"
+
+#[[menu.topbar]]
+#    weight = 2
+#    name = "Facebook"
+#    url = "http://facebook.com"
+#    pre = "<i class='fa fa-2x fa-facebook'></i>"
+
+[[menu.topbar]]
+    weight = 3
+    name = "Twitter"
+    url = "https://twitter.com/ttn_westerncape"
+    pre = "<i class='fa fa-2x fa-twitter'></i>"
+
+[[menu.topbar]]
+    weight = 4
+    name = "Email"
+    url = "mailto:first-contact@onisa.org.za"
+    pre = "<i class='fa fa-2x fa-envelope'></i>"
+
+[params]
+    viewMorePostLink = "/blog/"
+    author = "ONISA"
+    defaultKeywords = ["The Things Network", "LoRaWAN", "South Africa"]
+    defaultDescription = "Open Network Infrastructure South Africa"
+
+    # Google Maps API key (if not set will default to not passing a key.)
+    googleMapsApiKey = ""
+
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
+    style = "green"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    #
+    # Enable the contact form by entering your Formspree.io email
+    email = "first-contact@onisa.org.za"
+
+    about_us = "<p>Our work focuses on the operation of open networks, such as The Things Network, and on the promotion of knowledge of the technologies involved.</p>"
+    copyright = "Copyright (c) 2018, ONISA; all rights reserved."
+
+    # Format dates with Go's time formatting
+    date_format = "January 2, 2006"
+
+    logo = "img/logo.png"
+    address = """<p><strong>Open Network Infrastructure South Africa</strong>
+        <br>P.O. Box 38773
+        <br>Pinelands
+        <br>Cape Town, 7430
+        <strongSouth Africa</strong>
+      </p>
+      """
+#    latitude = "-12.043333"
+#    longitude = "-77.028333"
+
+
+[Permalinks]
+    blog = "/blog/:year/:month/:day/:filename/"
+
+# Enable or disable top bar with social icons
+[params.topbar]
+    enable = true
+    text = """<p class="hidden-sm hidden-xs">Contact via first-contact@onisa.org.za.</p>
+      <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fa fa-phone"></i></a>
+      <a href="#" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
+      </p>
+      """
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
+
+[params.carousel]
+    enable = true
+    # All carousel items are defined in their own files. You can find example items
+    # at 'exampleSite/data/carousel'.
+    # For more informtion take a look at the README.
+
+[params.features]
+    enable = true
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
+    # For more informtion take a look at the README.
+
+[params.testimonials]
+    enable = false 
+    # All testimonials are defined in their own files. You can find example items
+    # at 'exampleSite/data/testimonials'.
+    # For more informtion take a look at the README.
+    title = "Community"
+    subtitle = "Here are some voices from the community. Members sharing their views, their experiences, and their motivation."
+
+[params.see_more]
+    enable = true
+    icon = "fa fa-slack"
+    title = "Stay in touch with the community?"
+    subtitle = "For the time being we're mostly in the TTN Slack Channel #westerncape"
+    link_url = "https://join.slack.com/t/thethingsnetwork/shared_invite/enQtMzA2ODc4MjU0NjYxLTc2ZmNkMTA5ZjYxZmQxZDhmNzM3OGIzZjNiYjAyMzg4YjgyYjdhMTk0OWEyMTJkNTA2MTc5YmNlOTdmNTI4Y2U"
+    link_text = "Join TTN Slack"
+
+[params.clients]
+    enable = true 
+    # All clients are defined in their own files. You can find example items
+    # at 'exampleSite/data/clients'.
+    # For more informtion take a look at the README.
+    title = "Our Friends"
+    subtitle = ""
+
+[params.recent_posts]
+    enable = true
+    title = "From our blog"
+    subtitle = "We'll be trying to regularly publish blog posts about our activities and locally relevant topics."
+

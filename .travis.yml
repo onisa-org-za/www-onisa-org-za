@@ -1,0 +1,15 @@
+addons:
+  apt:
+    packages:
+    - python-pygments
+install:
+- rm -rf public || exit 0
+script:
+- binaries/hugo
+deploy:
+  provider: firebase
+  local_dir: public
+  skip_cleanup: true
+  token:
+    secure: KoT/ww08cvvSloeqnYlC6QuY0qknljeSyg8CqHpviJ2zJb5Ie2A/myJpkmAkqx66Ujfyt+auqZc6/kbuXi2bVrxiXaMsZIQ8BGc7xblMwpVPk6ou1VGkf5oPnSUkhCRTSxA8wEEcWnxiL3LCPiMKHb2kbEhTf4sftLLsmq5cmhUje6ockMpay1sxurUIeAYpPPRXG5t5DF29CJc1NyD7Jtt9pI7tfUTkqPSOdTZxVEg/lWEfeu436viIN2WDIONpMm/R4DVR3az/59XSH00V1bvd38u6zrtBbgDn8uxknnDclBPQWQXNoQJwhd1z6iXmcWm+XGwus2ibKw5EH00u3HUzeSISu28ztD9d/LBC4T3FVO5sxAEQFVBGe01GlSQVo1vMFnQs5t/yxYQ1wz8R9hivuP/J7SAxFn7Nv+yt+kIugJjGpKHM28KQNlPjyBk7fn43/y+Ywyq5tiaw4bgo3DrHIiTaFMgB+cy5PMJ7/LJpRvlEynipVYynywaQN3VmQun/T+wTXAWDJlnAjjmqVBGkHdk0xI3KP06Dadtpg1KYxGNAIUzcxRQ8KRtDB4r2L8CBkNQ8f+xi7OSKNw9KZWBXoHosUPFDIPj4OChrh9zcADXkh688Dqyu6eZmPY3IzBLgxPdeKDFkzIhPq0Fjoz9y3I6sSytPsu+dwpZvvdQ=
+  project: www-onisa-org-za

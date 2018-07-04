@@ -1,0 +1,9 @@
+weight: 4
+title: "Open"
+description: >
+        <ul class="list-style-none">
+           <li>Following Open Source principles</li>
+           <li>Achieving sustainability, Robustness, and trust</li>
+        </ul>
+image: "img/carousel/open.jpg"
+
