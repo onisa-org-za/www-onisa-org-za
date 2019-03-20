@@ -12,7 +12,7 @@ This has a detrimental impact on daily life and citizen's basic needs. Even more
 
 Firstly, for a spatial understanding of how load shedding works, here the areas blacked out Wed March 20 08:00-16:30 in Cape Town Metro ([map](http://resource.capetown.gov.za/documentcentre/Documents/Procedures%2c%20guidelines%20and%20regulations/Load_Shedding_All_Areas_Schedule_and_Map.pdf)). Please note that Stellenbosch has it's own schedule not shown here.
  
-![Load shedding map 08:00](/img/blog/load-shedding-0800.png)![Load shedding map 10:00](/img/blog/load-shedding-1000.png)![Load shedding map 12:00](/img/blog/load-shedding-1200.png)![Load shedding map 14:00](/img/blog/load-shedding-1400.png)
+![Load shedding map animatied](/img/blog/load-shedding-areas.gif)
 
 You probably know this already, but to reiterate:
  
