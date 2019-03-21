@@ -18,7 +18,7 @@ You probably know this already, but to reiterate:
  
 * **When a TTN node sends out a message it can be received by _multiple_ gateways and will be delivered to the network**. 
 
-In effect this means a TTN node can utilise gateways that are outside of its immediate area. Far distant, in fact. Here a simple battery-powered node in Khayelitsha. It's within reach of four TTN gateways outside of its own area, at an average distance of 23km. 
+In effect this means a TTN node can utilise gateways that are outside of its immediate area, which are not impacted by load shedding. Gateways that are far distant, in fact. Here a simple battery-powered node in Khayelitsha. It's within reach of four TTN gateways outside of its own area, at an average distance of 23km. 
 
 ![TTN node Khayelitsha](/img/blog/load-shedding-khayelitsha.png)
 
