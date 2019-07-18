@@ -9,6 +9,7 @@ title: "Resources"
 - **Twitter**: [@ttn_westerncape](https://twitter.com/ttn_westerncape) 
 - **Meetup**: [Cape Town](https://www.meetup.com/The-Things-Network-Cape-Town-Meetup/), [Stellenbosch](https://www.meetup.com/The-Things-Network-Stellenbosch/)
 - **GitHub**: [github.com/onisa-org-za](https://github.com/onisa-org-za/)
+- **TTN Forum**: [South Africa topic on project forum](https://www.thethingsnetwork.org/forum/c/country/south-africa) 
 
 ## Related Projects
 
