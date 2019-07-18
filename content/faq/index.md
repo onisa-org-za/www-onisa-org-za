@@ -17,7 +17,9 @@ The features and differences can be best explained with these two simple introdu
 
 ## Which band is used in South Africa?
 
-We use the 868MHz band, as does Europe. Radio regulations differ worldwide and are split into regions. This is significant when ordering components where you would usually have to distinguish between 868MHz and 915MHz (North America).
+We use the 868MHz band, as does Europe. Radio regulations differ worldwide and are split into regions. This is significant when ordering components where you would usually have to distinguish between 868MHz and 915MHz (North America). 
+
+The 868Mhz band is within the ISM (industrial, scientific, medical) band defined by ICASA and eligible for unlicensed operation. For more see [our discussion in the TTN forum](https://www.thethingsnetwork.org/forum/t/regulations-around-lora-in-south-africa/10734)
 
 ## How do I start? 
 
