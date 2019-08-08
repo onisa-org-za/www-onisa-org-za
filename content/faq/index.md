@@ -23,7 +23,7 @@ The 868Mhz band is within the ISM (industrial, scientific, medical) band defined
 
 ## How do I start? 
 
-There are plenty of options, here possible approaches: 
+There are plenty of options. Here possible approaches: 
 
 - Find a project that you are really interested in from your favorite maker site (e.g. [hackster.io](https://www.hackster.io/the-things-network), [TTN Labs](https://www.thethingsnetwork.org/labs/stories/), [TTN Mapper](https://github.com/ttnmapper/gps-node-examples)). Copy the build and modify it to your liking.
 
